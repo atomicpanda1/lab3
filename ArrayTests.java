@@ -36,8 +36,9 @@ public class ArrayTests {
 
   @Test
   public void testAverage2SameNumbersAnd1Lowest() {
-    double[] input1 = {1, 1, 5, 5};
-    assertEquals((5, ArrayExamples.averageWithoutLowest(input1), 0.001);
+    double[] input1 = {1, 1, 2, 2, 3};
+    double output = 2;
+    assertEquals(output, ArrayExamples.averageWithoutLowest(input1), 0.001);
     //System.out.println(ArrayExamples.averageWithoutLowest(input1));
   }
 }
